@@ -16,6 +16,10 @@
 				<key>items</key>
 				<array>
 					<string>FE49CFB7-4D93-4749-8634-FC142E16776E</string>
+					<string>9F22EA18-9F6E-46F0-9B9B-802291C193FE</string>
+					<string>9DD72B68-8966-41B0-8AF8-A038A822BFD7</string>
+					<string>DA794A1A-64CC-4C5E-A807-3E39B163D06F</string>
+					<string>DFBB4379-6D14-4AAA-8450-737BD586A97E</string>
 				</array>
 				<key>name</key>
 				<string>Python</string>
@@ -65,6 +69,8 @@
 		<string>FE49CFB7-4D93-4749-8634-FC142E16776E</string>
 		<string>9F22EA18-9F6E-46F0-9B9B-802291C193FE</string>
 		<string>9DD72B68-8966-41B0-8AF8-A038A822BFD7</string>
+		<string>DA794A1A-64CC-4C5E-A807-3E39B163D06F</string>
+		<string>DFBB4379-6D14-4AAA-8450-737BD586A97E</string>
 	</array>
 	<key>uuid</key>
 	<string>6E973242-5E97-4C4E-B491-60B6F8B13DD4</string>

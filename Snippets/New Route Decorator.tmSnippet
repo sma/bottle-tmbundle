@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@route("${1:url}"${2/([^,])?(.*)/(?1:, method=")/}${2}${2/([^,])?(.*)/(?1:")/})
+	<string>@route(r"${1:url}"${2/([^,])?(.*)/(?1:, method=")/}${2}${2/([^,])?(.*)/(?1:")/})
 $0</string>
 	<key>name</key>
 	<string>New Route Decorator</string>
 	<key>scope</key>
-	<string>source.python</string>
+	<string>source.python.bottle</string>
 	<key>tabTrigger</key>
 	<string>r</string>
 	<key>uuid</key>

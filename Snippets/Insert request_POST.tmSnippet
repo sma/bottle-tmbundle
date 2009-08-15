@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@validate(${1:name=type})
-$0</string>
+	<string>request.POST["$1"]$0</string>
 	<key>name</key>
-	<string>New Validate Decorator</string>
+	<string>Insert request.POST</string>
 	<key>scope</key>
 	<string>source.python.bottle</string>
 	<key>tabTrigger</key>
-	<string>v</string>
+	<string>rp</string>
 	<key>uuid</key>
-	<string>9DD72B68-8966-41B0-8AF8-A038A822BFD7</string>
+	<string>DFBB4379-6D14-4AAA-8450-737BD586A97E</string>
 </dict>
 </plist>
