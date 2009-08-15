@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>foldingStartMarker</key>
+	<string>^\s*(def|class)\s+([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
+	<key>foldingStopMarker</key>
+	<string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
+	<key>keyEquivalent</key>
+	<string>^~P</string>
+	<key>name</key>
+	<string>Python (Bottle)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>XXX</string>
+			<key>name</key>
+			<string>constant</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>route</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>router</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>:\w+</string>
+					<key>name</key>
+					<string>constant.character.character-class.regexp</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.python</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.python.bottle</string>
+	<key>uuid</key>
+	<string>81884D4F-55CB-46BB-B116-29ECEF944094</string>
+</dict>
+</plist>

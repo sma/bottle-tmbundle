@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@route("${1:url}"${2/([^,])?(.*)/(?1:, method=")/}${2}${2/([^,])?(.*)/(?1:")/})
+${4:@validate(${5:name=type})
+}def ${6:name}(${7}):
+	$0</string>
+	<key>name</key>
+	<string>New Route Function</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>route</string>
+	<key>uuid</key>
+	<string>FE49CFB7-4D93-4749-8634-FC142E16776E</string>
+</dict>
+</plist>

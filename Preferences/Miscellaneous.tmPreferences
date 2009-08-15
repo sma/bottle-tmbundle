@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Miscellaneous</string>
+	<key>scope</key>
+	<string>text.html.python.bottle</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>(?x)
+		^\s*
+		(&lt;/(?!html)[A-Za-z0-9]+\b[^&gt;]*&gt;
+		|--&gt;
+		|%\s*((elif|else|except|finally)\b.*:|end\b)
+		)</string>
+		<key>increaseIndentPattern</key>
+		<string>(?x)
+		^\s*
+		(&lt;(?!\?|area|base|br|col|frame|hr|html|img|input|link|meta|param|[^&gt;]*/&gt;)([A-Za-z0-9]+)(?=\s|&gt;)\b[^&gt;]*&gt;(?!.*&lt;/\1&gt;)
+		|&lt;!--(?!.*--&gt;)
+		|%\s*(class|def|elif|else|except|finally|for|if|try|with|while)\b.*:\s*$
+		)</string>
+	</dict>
+	<key>uuid</key>
+	<string>78447CC6-58AE-41F7-9E71-7CA187936394</string>
+</dict>
+</plist>
